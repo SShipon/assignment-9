@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Learn online from the leaders in business education
 
-You can visit now, [Live Site link](https://github.com/facebook/create-react-app).
+You can visit now, [Live Site link](https://sshiponnn.netlify.app/).
 
 Technologies we used:
 - HTML
