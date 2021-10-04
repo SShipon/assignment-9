@@ -26,7 +26,7 @@ const Course = (props) => {
                     </Card.Body>
                      <Card.Footer>
                     <Link to="/"> 
-                    <Button>Enroll Now</Button>
+                    <Button className="btn-hero">Enroll Now</Button>
                     </Link>
                 </Card.Footer>
                 </Card>

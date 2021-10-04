@@ -7,6 +7,7 @@ import Header from './Header/Header';
 import Home from './Home/Home';
 import NotFound from './NotFound/NotFound';
 import Services from './Services/Services';
+import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   return (
     <BrowserRouter>

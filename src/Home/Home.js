@@ -10,8 +10,9 @@ const Home = () => {
     return (
         <Container>
             <div className="Home-style">
-                <h1>Distance learning and Online courses</h1>
-                <img src="https://image.freepik.com/free-photo/brainstorm-meeting_1098-15871.jpg" alt="" />
+                <h1>Learn online from the leaders in business education</h1>
+                <p>Expand your business skills and engage with a global network of learners through our flexible, online courses. Wherever you are in your career—or the world—Harvard Business School Online can help you achieve your goals.</p>
+                <img src="https://img.freepik.com/free-photo/medium-shot-girl-with-laptop-home_23-2149014092.jpg?size=626&ext=jpg" alt="" />
 
                 <h2>Our Running Sevices</h2>
                 <Row

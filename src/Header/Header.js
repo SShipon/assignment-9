@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Container, Nav, Navbar, } from 'react-bootstrap';
+import {  Col, Container, Nav, Navbar, Row, } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
@@ -7,12 +7,19 @@ const Header = () => {
         <div className="header-style">
               <Navbar variant="dark">
                  <Container>
-                        <Navbar.Brand as={Link} to="/" >Home</Navbar.Brand>
-                        <Nav className="me-auto">
+                    <Row>
+                        <Col>
+                                               <Navbar.Brand as={Link} to="/" >Home</Navbar.Brand>
+                       
+                        </Col>
+                        <Col>
+                         <Nav className="me-auto">
                         <Nav.Link as={Link} to="/services" >Services</Nav.Link>
                         <Nav.Link as={Link} to="/about" >About</Nav.Link>
                          <Nav.Link as={Link} to="/contact" >Contact</Nav.Link>
-                      </Nav>
+                      </Nav> 
+                        </Col>
+</Row>
                 </Container>
             </Navbar>
            </div>
