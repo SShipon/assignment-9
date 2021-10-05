@@ -48,13 +48,13 @@ const Footer = () => {
                     </div>
                       {/*colum 4*/}
                    <div className="col-md-3 col-sm-6">
-                         <h4>Social</h4>
+                         <h4>Contact</h4>
                     <ul className="list-unstyled font-awsome">
+                        <li><i class="fas fa-home"></i> Gulshan Dhaka</li>
+                        <li><i class="fas fa-phone"></i> +8801703059461</li>
+                        <li><i class="fas fa-question-circle"></i> +4574754</li>
                         <li><a href="https://www.facebook.com/mdshipon.chowdhury.940"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/md-shipon-214207214/"><i class="fab fa-linkedin"></i></a></li>
-                        <li><i class="fab fa-youtube"></i></li>
-                        <li><i class="fab fa-instagram"></i></li>
-                        <li><i class="fab fa-skype"></i></li>
+                        <li><a href="https://www.linkedin.com/in/md-shipon-214207214/"><i class="fab fa-linkedin-in"></i></a></li>
                     </ul>
                     </div>
                 </div>

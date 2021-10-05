@@ -1,3 +1,16 @@
 .Home-style{
     text-align: center;
 }
+.img-size{
+   width: 350px;
+   height: 370px;
+   margin-top: 20px;
+}
+.item-color h3{
+    color: black;
+}
+.course{
+    font-size: 52px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
