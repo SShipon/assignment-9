@@ -2,16 +2,23 @@
 background-color: rgb(70, 66, 66);
 color: #fff;
 margin-top: 10px;
+padding-bottom: 10px;
+
 }
-.main-footer h4{
-  margin-top: 10px;
-  position: relative;
+
+.text-content h4{
+  margin-top:10px;
 }
- :hover h4{
+.text-content h4:hover{
   width: 100px;
-  color:rgb(105, 255, 248)
+  color:rgb(105, 255, 248);
+  text-decoration: underline;
  
-  
+}
+.text-content li:hover{
+    color: rgb(174, 219, 233);
+    text-decoration: underline;
+
 }
 .font-awsome li{
     display: inline-block;
@@ -19,5 +26,8 @@ margin-top: 10px;
    font-size: 20px;
 }
 .font-awsome li:hover{
-    color: lightblue;
+    color: rgb(99, 198, 231);
+}
+.footer-bottom p{
+    margin: 5px;
 }

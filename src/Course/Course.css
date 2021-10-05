@@ -2,11 +2,16 @@
     background-color:rgb(233, 226, 213);
     color:#4E4E4E;
 }
+/*button style*/
 .btn-hero{
-    background-color: rgb(98, 238, 238);
+    background-color: rgb(21, 110, 110);
     border-radius: 10px;
     border: 1px solid ghostwhite;
     padding: 8px;
     color: rgb(255, 255, 255);
     
+}
+/*rating style*/
+.rating{
+    color: gold;
 }

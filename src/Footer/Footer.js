@@ -4,10 +4,10 @@ import'./Footer.css'
 const Footer = () => {
     return (
         <div className="main-footer">
-            <div className="container ">
+            <div className="container text-content">
                 <div className="row">
                     {/*colum 1*/}
-                   <div className="col-md-3 col-sm-6 text-content">
+                   <div className="col-md-3 col-sm-6">
                          <h4>Product</h4>
                     <ul className="list-unstyled">
                         <li>Designer</li>
