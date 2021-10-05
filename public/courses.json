@@ -1,23 +1,25 @@
 [
   {
     "id": 1,
-    "courseName": "Python for Everybody",
+    "courseName": "iPhone Apps",
     "institute": "University of Michigan",
     "catagory": "Specialization",
+    "courseFree":"120",
     "rating": 4,
     "totalStudent": "2.5m",
     "type": "begginer",
-    "imgUrl": "https://image.freepik.com/free-photo/python-computer-screen-with-elements-program-code-3d_327483-682.jpg"
+    "imgUrl": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
   },
   {
     "id": 2,
-    "courseName": "Introduction to Programming",
-    "institute": "The University of Edinburgh",
+    "courseName": "Data Entry",
+    "institute": "SkyNet Computer",
     "catagory": "Course",
+    "salary":"4500",
     "rating": "4",
     "totalStudent": "210k",
     "type": "begginer",
-    "imgUrl": "https://image.freepik.com/free-photo/close-up-man-writing-code-laptop_158595-5169.jpg"
+    "imgUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
   },
   {
     "id": 3,
