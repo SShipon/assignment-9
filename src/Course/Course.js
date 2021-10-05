@@ -5,7 +5,7 @@ import Rating from 'react-rating';
 import { Link } from 'react-router-dom';
 import './Course.css'
 const Course = (props) => {
-    const {courseName,catagory,institute,rating,totalStudent,imgUrl} = props.course;
+    const {courseName,training,institute,courseFree,rating,totalStudent,imgUrl} = props.course;
     console.log(props)
     return (
        
@@ -14,8 +14,10 @@ const Course = (props) => {
                 <Card.Img height="250" variant="top" src={imgUrl} className="p-y"/>
                 <Card.Body>
                 <Card.Title>{courseName}</Card.Title>
-                    <p>{institute}<small><br /> {catagory}</small> <br />   {totalStudent} Students </p>
-                    <h6>${}</h6>
+                    <p>Institute{institute}</p>
+                    <h6>Training: {training}</h6>
+                    <p><span>Course Free:</span> ${courseFree}</p>
+                    <h5>Student: {totalStudent }</h5>
                         <p> Rating :  
                     <Rating className="rating"
                         placeholderRating={rating}

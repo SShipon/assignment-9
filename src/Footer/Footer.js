@@ -50,8 +50,8 @@ const Footer = () => {
                    <div className="col-md-3 col-sm-6">
                          <h4>Social</h4>
                     <ul className="list-unstyled font-awsome">
-                        <li><i class="fab fa-facebook"></i></li>
-                        <li><i class="fab fa-linkedin"></i></li>
+                        <li><a href="https://www.facebook.com/mdshipon.chowdhury.940"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/md-shipon-214207214/"><i class="fab fa-linkedin"></i></a></li>
                         <li><i class="fab fa-youtube"></i></li>
                         <li><i class="fab fa-instagram"></i></li>
                         <li><i class="fab fa-skype"></i></li>
