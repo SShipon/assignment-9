@@ -3,9 +3,10 @@
     color:#4E4E4E;
 }
 .btn-hero{
-    background-color: darkorange;
+    background-color: rgb(98, 238, 238);
     border-radius: 10px;
+    border: 1px solid ghostwhite;
     padding: 8px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     
 }

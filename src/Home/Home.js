@@ -18,16 +18,12 @@ const Home = () => {
                 <Row
                     xs={1} md={3} className="g-4 ">
                     {
-                        courses.slice(0, 3).map(course => <Course
+                    courses.slice(0, 3).map(course => <Course
                           course={course}
                         ></Course>)
                        
                     }
                 </Row>
-
-
-       
-               
             </div>
 
         </Container>

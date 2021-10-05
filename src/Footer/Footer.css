@@ -1,0 +1,23 @@
+.main-footer{
+background-color: rgb(70, 66, 66);
+color: #fff;
+margin-top: 10px;
+}
+.main-footer h4{
+  margin-top: 10px;
+  position: relative;
+}
+ :hover h4{
+  width: 100px;
+  color:rgb(105, 255, 248)
+ 
+  
+}
+.font-awsome li{
+    display: inline-block;
+    margin-right: 15px;
+   font-size: 20px;
+}
+.font-awsome li:hover{
+    color: lightblue;
+}

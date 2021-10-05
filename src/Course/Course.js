@@ -11,17 +11,16 @@ const Course = (props) => {
        
             <Col>
             <Card className="h-100 bg-farhan">
-                <Card.Img variant="top" src={imgUrl} className="p-y"/>
+                <Card.Img height="250" variant="top" src={imgUrl} className="p-y"/>
                 <Card.Body>
                 <Card.Title>{courseName}</Card.Title>
                         <p>{institute}<small><br /> {catagory}</small> <br />   {totalStudent} Students </p>
-                        <p><strong>{type}</strong>   
+                        <p><strong> Rating</strong>   
                     <Rating
                         placeholderRating={rating}
                         emptySymbol={<i className="far fa-star" bg="warning" ></i>}
                         placeholderSymbol={<i className="fas fa-star" bg="warning" ></i>}
-                        fullSymbol={<i className="fas fa-star" bg="warning" ></i>}
-                    />
+                        fullSymbol={<i className="fas fa-star" bg="warning" ></i>}/>
                     </p>
                     </Card.Body>
                      <Card.Footer>
@@ -30,11 +29,7 @@ const Course = (props) => {
                     </Link>
                 </Card.Footer>
                 </Card>
-               
-
-
-
-          </Col>
+         </Col>
         
       
     );
