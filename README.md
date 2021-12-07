@@ -7,6 +7,17 @@ Technologies we used:
 - css
 - ass
 - JavaScript
-- React.js
-- bootstarp
-- react Router
+-  fortawesome/free-solid-svg-icons
+-  fortawesome/react-fontawesome
+-  testing-library/jest-dom
+-  testing-library/react
+-  testing-library/user-event
+-  bootstrap
+-  firebase
+-  react-bootstrap
+-  react-dom
+-  react-rating
+-  react-reveal
+-  react-router-dom
+-  react-scripts
+-  web-vitals

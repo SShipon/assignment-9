@@ -45,13 +45,14 @@ const Home = () => {
     />
 
     <Carousel.Caption className="item-color">
-      <h3>courses with certificates</h3>
-      <p>Free online courses with certificates. Join 2 million graduates and empower your career. Study, learn, certify, upskill with free online learning and ...</p>
+      <h3></h3>
+      <p>both medical and surgical, of the sick and the housing during this</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
 
-                <h2 className="course">Our online Running Course</h2>
+                <h2 className="course">Our Services</h2>
+                
                 <Row
                     xs={1} md={3} className="g-4 ">
                     {
